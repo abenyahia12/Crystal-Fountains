@@ -14,9 +14,9 @@ enum TweenEasing
 [Serializable]
 sealed class TweenRunner : CustomYieldInstruction
 {
-    [SerializeField] [FormerlySerializedAs("duration")] float m_Duration = 1.0f;
-    [SerializeField] [FormerlySerializedAs("ignoreTimeScale")] bool m_IgnoreTimeScale;
-    [SerializeField] [FormerlySerializedAs("easing")] TweenEasing m_Easing;
+    [SerializeField] float m_Duration = 1.0f;
+    [SerializeField] bool m_IgnoreTimeScale;
+    [SerializeField] TweenEasing m_Easing;
 
     MonoBehaviour m_CoroutineContainer;
     TweenAction m_TweenAction;
