@@ -9,11 +9,11 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HDRP-FreeWater 2
   m_Shader: {fileID: 4800000, guid: 13ac76e5d4eb0094d89a054ea444d02a, type: 3}
-  m_ShaderKeywords: _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT
-    _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _DISABLE_DECALS _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+    _TRANSPARENT_WRITES_MOTION_VEC
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
@@ -304,24 +304,24 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_10BE3CD8: 0
-    - Vector1_2DCE38F4: -0.154
+    - Vector1_2DCE38F4: -0.16
     - Vector1_3034A0E7: 0
     - Vector1_35CC0B3F: 0
     - Vector1_3894EE55: 0
     - Vector1_4159F3F: 0
     - Vector1_4AC4A68B: 0.002
     - Vector1_4E6C1A96: 0.783
-    - Vector1_4FE3D16D: 2.12
+    - Vector1_4FE3D16D: 0.3
     - Vector1_717AF822: 0
     - Vector1_75458A12: 9.89
     - Vector1_895CAB23: 0
     - Vector1_8DAAF4DB: 0
     - Vector1_9BC3A5CD: 0
     - Vector1_A8100DE7: 0
-    - Vector1_D7555F9C: 0.697
+    - Vector1_D7555F9C: 1
     - Vector1_D958705D: 0
     - Vector1_DFD3567: 0.002
-    - Vector1_E5C822F8: 0.583
+    - Vector1_E5C822F8: 0.333
     - Vector1_EDB9DB3: 0
     - _0_1: 0
     - _AORemapMax0: 1
@@ -345,8 +345,8 @@ Material:
     - _CausticsOpacity: 1
     - _CausticsThickness: 30
     - _ColorBlendingAmount: 1
-    - _CullMode: 0
-    - _CullModeForward: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DeepColorBlend: 1
     - _DeepDepth: 30
@@ -376,7 +376,7 @@ Material:
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
     - _Distortion: 0.25
-    - _DoubleSidedEnable: 1
+    - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 1
     - _Drag: 1
     - _DstBlend: 10
@@ -494,7 +494,7 @@ Material:
     - _PreRefractionPass: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
-    - _ReceivesSSRTransparent: 0
+    - _ReceivesSSRTransparent: 1
     - _ReflectionAmount: 1
     - _RefractionModel: 0
     - _RenderQueueType: 4
@@ -526,10 +526,10 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 0
+    - _StencilRefDepth: 8
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 2
-    - _StencilRefMV: 32
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
@@ -568,7 +568,7 @@ Material:
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 1
     - _TransparentSortPriority: 0
-    - _TransparentWritingMotionVec: 0
+    - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 0
     - _UVBase0: 0
     - _UVBase1: 0
