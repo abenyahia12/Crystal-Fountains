@@ -289,8 +289,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -14883,8 +14911,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -15114,8 +15170,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -15240,8 +15324,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -20354,8 +20466,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -25231,8 +25371,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -30824,8 +30992,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -30991,7 +31187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd866de1573d8d941a39e2043289df1a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ec3b1d9be1dbe74fb79a449b994d072, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31212,7 +31408,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 2
+  antialiasing: 0
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -31722,7 +31918,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78c616a3f19dae64caf01f80765872e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c977b3fc32c568469e8d6eb246c493d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31963,8 +32159,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -32271,8 +32495,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -32337,8 +32589,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -37725,8 +38005,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
     - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
@@ -37801,7 +38109,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109996016}
-  m_LocalRotation: {x: 0, y: 0.5600608, z: 0, w: 0.8284515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -37809,7 +38117,7 @@ Transform:
   - {fileID: 863811966}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 68.12, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129252194
 GameObject:
   m_ObjectHideFlags: 0
@@ -47438,6 +47746,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601774556}
     m_Modifications:
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849970867652761248, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
+      propertyPath: ForceModule.y.maxCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5849970867652761254, guid: 9d11d7b5e8742a64cbe70757920c6111, type: 3}
       propertyPath: m_RootOrder
       value: 0

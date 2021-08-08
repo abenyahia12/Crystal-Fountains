@@ -17,13 +17,13 @@ MonoBehaviour:
     eventInformations:
     - eventTime: 0
       SetupIndex: 0
-    - eventTime: 10.5
+    - eventTime: 11.5
       SetupIndex: 1
-    - eventTime: 13.5
+    - eventTime: 14.5
       SetupIndex: 2
-    - eventTime: 17
+    - eventTime: 17.5
       SetupIndex: 3
-    - eventTime: 19.5
+    - eventTime: 20.5
       SetupIndex: 0
-    - eventTime: 22
+    - eventTime: 23
       SetupIndex: 1

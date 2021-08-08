@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +21,6 @@ public class ContentCreator : MonoBehaviour
 
     private IEnumerator  PlaySequence()
     {
-
         //Init and fade UI
         float audioLength = m_ScriptableContent.m_ContentParameters.audioClip.length;
         yield return StartCoroutine(FadeCanvas(fadeState));
